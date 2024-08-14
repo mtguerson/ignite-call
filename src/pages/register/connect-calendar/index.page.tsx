@@ -17,7 +17,7 @@ export default function ConnectCalendar() {
   }
 
   async function handleNavigateToNextStep() {
-    await router.push('register/time-intervals')
+    await router.push('/register/time-intervals')
   }
 
   return (
@@ -60,7 +60,7 @@ export default function ConnectCalendar() {
         )}
 
         <Button
-          onCLick={handleNavigateToNextStep}
+          onClick={handleNavigateToNextStep}
           type="submit"
           disabled={!isSignedIn}
         >
