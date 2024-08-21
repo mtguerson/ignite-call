@@ -60,7 +60,8 @@ export default async function handle(
     GROUP BY EXTRACT(DAY FROM S.DATE),
       ((UTI.time_end_in_minutes - UTI.time_start_in_minutes) / 60)
 
-    HAVING amount >= size
+    HAVING
+      COUNT(S.date) >= ((UTI.time_end_in_minutes - UTI.time_start_in_minutes) / 60);
   `
 
   const blockedDates = blockedDatesRaw.map((item) => item.date)
