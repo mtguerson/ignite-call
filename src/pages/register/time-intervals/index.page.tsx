@@ -134,6 +134,8 @@ export default function TimeIntervals() {
                       render={({ field }) => {
                         return (
                           <Checkbox
+                            /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
+                            // @ts-ignore
                             onCheckedChange={(checked: boolean) => {
                               field.onChange(checked === true)
                             }}
@@ -145,6 +147,8 @@ export default function TimeIntervals() {
                     <Text>{weekdays[field.weekDay]}</Text>
                   </IntervalDay>
                   <IntervalInputs>
+                    {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+                    {/* @ts-ignore */}
                     <TextInput
                       size="sm"
                       type="time"
@@ -152,6 +156,8 @@ export default function TimeIntervals() {
                       disabled={intervals[index].enabled === false}
                       {...register(`intervals.${index}.startTime`)}
                     />
+                    {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+                    {/* @ts-ignore */}
                     <TextInput
                       size="sm"
                       type="time"

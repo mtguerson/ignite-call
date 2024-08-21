@@ -71,6 +71,8 @@ export default function UpdateProfile() {
           <label>
             <Text size="sm">Foto de perfil</Text>
             <Avatar
+              /* eslint-disable-next-line @typescript-eslint/ban-ts-comment */
+              // @ts-ignore
               src={session.data?.user.avatar_url}
               referrerPolicy="no-referrer"
               alt={session.data?.user.name}

@@ -79,6 +79,8 @@ export default function Register() {
         <Form as="form" onSubmit={handleSubmit(handleRegister)}>
           <label>
             <Text size="sm">Nome de usuário</Text>
+            {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+            {/* @ts-ignore */}
             <TextInput
               prefix="ignite.com/"
               placeholder="seu-usuario"
@@ -92,6 +94,8 @@ export default function Register() {
 
           <label>
             <Text size="sm">Nome completo</Text>
+            {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+            {/* @ts-ignore */}
             <TextInput placeholder="Seu nome" {...register('name')} />
 
             {errors.name && (

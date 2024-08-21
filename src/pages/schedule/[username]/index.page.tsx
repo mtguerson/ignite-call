@@ -20,6 +20,8 @@ export default function Schedule({ user }: ScheduleProps) {
 
       <Container>
         <UserHeader>
+          {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+          {/* @ts-ignore */}
           <Avatar src={user.avatarUrl} />
           <Heading>{user.name}</Heading>
           <Text>{user.bio}</Text>

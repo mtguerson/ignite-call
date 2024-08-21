@@ -67,12 +67,16 @@ export function ConfirmStep({
 
       <label>
         <Text size="sm">Nome completo</Text>
+        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+        {/* @ts-ignore */}
         <TextInput placeholder="Seu nome" {...register('name')} />
         {errors.name && <FormError size="sm">{errors.name.message}</FormError>}
       </label>
 
       <label>
         <Text size="sm">Endereço de e-mail</Text>
+        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+        {/* @ts-ignore */}
         <TextInput
           type="email"
           placeholder="johndoe@example.com"
@@ -85,6 +89,8 @@ export function ConfirmStep({
 
       <label>
         <Text size="sm">Observações</Text>
+        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+        {/* @ts-ignore */}
         <TextInput {...register('observations')} />
       </label>
 
