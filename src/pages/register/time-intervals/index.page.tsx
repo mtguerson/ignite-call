@@ -99,8 +99,10 @@ export default function TimeIntervals() {
 
   const intervals = watch('intervals')
 
-  async function handleSetTimeIntervals(data: TimeIntervalsFormOutput) {
-    await api.post('/users/time-intervals', data)
+  async function handleSetTimeIntervals(data: unknown) {
+    const { intervals } = data as TimeIntervalsFormOutput
+
+    await api.post('/users/time-intervals', intervals)
 
     router.push('/register/update-profile')
   }
