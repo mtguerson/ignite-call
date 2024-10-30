@@ -16,24 +16,6 @@
 ![ignite-call-7](https://github.com/user-attachments/assets/94ec913a-9cf6-4aab-8f37-7b59a70cc437)
 ![ignite-call-8](https://github.com/user-attachments/assets/4c98fa84-ac8a-4ffb-8a79-3d50d1fc0ae1)
 
-# :information_source: Como Executar?
-> **1.0.** Clone o Repositório:
-```bash
-https://github.com/tavareshenrique/ignite-call.git
-```
-> **1.1.** Informe as variáveis de ambiente
-```bash
-cp .env.example .env.local
-```
-> **1.2.** Instale as dependências:
-```bash
-npm install
-```
-> **1.3.** Inicie o Projeto:
-```bash
-npm run dev
-```
-> ➡️ Acesse [http://localhost:3000](http://localhost:3000) para acessar a aplicação web.
 # :rocket: Tecnologias
 - [React](https://pt-br.reactjs.org/)
 - [NextJS](https://vitejs.dev/)
