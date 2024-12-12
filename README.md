@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  O <b>Ignite Call</b> é o projeto do quinto módulo do curso Ignite ReactJS da Rocketseat. Trata-se de uma aplicação focada na criação de eventos personalizados no calendário do usuário, onde você cadastra sua disponibilidade em dias e horas e compartilha com as pessoas.
+  <b>Ignite Call</b> is the project for the fifth module of the Rocketseat Ignite ReactJS course. It is an application focused on creating personalized events in the user's calendar, where you can register your availability in days and hours and share it with others.
 </p>
 
 ![ignite-call-1](https://github.com/user-attachments/assets/861eeb33-15ad-48a5-a0b0-10b8cd6a524e)
